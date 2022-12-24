@@ -1,4 +1,3 @@
-
 function getUrlParameter(sParam) {
   var sPageURL = window.location.search.substring(1);
   var sURLVariables = sPageURL.split('&');
@@ -54,4 +53,3 @@ if (window.matchMedia("(min-width: 937px)").matches) {
   document.getElementById('searchbox').value = qfc;
   
 }
-var isMac = navigator.platform.toUpperCase().indexOf('MAC')>=0;
