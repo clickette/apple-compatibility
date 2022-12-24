@@ -55,8 +55,3 @@ if (window.matchMedia("(min-width: 937px)").matches) {
   
 }
 var isMac = navigator.platform.toUpperCase().indexOf('MAC')>=0;
-if (isMac) {
-function setCookie(cname,cvalue) {
-  document.cookie = cname + "=" + cvalue;
-}
-
